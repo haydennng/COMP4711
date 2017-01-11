@@ -14,9 +14,7 @@ and open the template in the editor.
         include('student.php');
         $students = array();
         
-        foreach($students as $student)
-            echo $student ->tostring();
-        
+        //Creates first student Hayden Ng
         $first = new Student();
         $first->surname = "Ng";
         $first->first_name = "Hayden";
@@ -27,6 +25,7 @@ and open the template in the editor.
         $first->add_grade(100);
         $students['h123'] = $first;
         
+        //Creates Second student Albert Wong
         $second = new Student();
         $second->surname = "Wong";
         $second->first_name = "Albert";
@@ -38,9 +37,10 @@ and open the template in the editor.
         $second->add_grade(50);
         $students['a456'] = $second;
         
-        echo $first;
-        echo $second;
-        ?>
+        //prints out students 
+        foreach($students as $student)
+            echo $student ->tostring();
+       ?>
     </body>
     
 </html>
