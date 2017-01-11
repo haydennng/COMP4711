@@ -12,6 +12,7 @@ and open the template in the editor.
     <body>
         <?php
         echo 'Hello, out there.... I live';
+        
         ?>
     </body>
 </html>
