@@ -10,6 +10,7 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        <b>STUDENT RECORDS</b>
         <?php
         include('student.php');
         $students = array();
