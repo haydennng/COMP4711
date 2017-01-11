@@ -37,6 +37,10 @@ and open the template in the editor.
         $second->add_grade(30);
         $second->add_grade(50);
         $students['a456'] = $second;
+        
+        echo $first;
+        echo $second;
         ?>
     </body>
+    
 </html>
