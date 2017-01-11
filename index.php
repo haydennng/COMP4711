@@ -39,16 +39,16 @@ and open the template in the editor.
         $students['a456'] = $second;
         
         //Creates Third student Albert Wong
-        $second = new Student();
-        $second->surname = "WeiToGood";
-        $second->first_name = "Albert";
-        $second->add_email('home','joebillbob@jimmy.com');
-        $second->add_email('work1','billybobdog@bob.com');
-        $second->add_email('work2','albert@physics.mit.edu');
-        $second->add_grade(14);
-        $second->add_grade(100);
-        $second->add_grade(30);
-        $students['a456'] = $second;
+        $third = new Student();
+        $third->surname = "WeiToGood";
+        $third->first_name = "Albert";
+        $third->add_email('home','joebillbob@jimmy.com');
+        $third->add_email('work1','billybobdog@bob.com');
+        $third->add_email('work2','albert@physics.mit.edu');
+        $third->add_grade(14);
+        $third->add_grade(100);
+        $third->add_grade(30);
+        $students['a456'] = $third;
         
         //function to order the students
         ksort($students); // one of the many sort functions
